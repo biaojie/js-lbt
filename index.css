@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box{
+    width: 400px;
+    margin: 100px auto;
+    height: 200px;
+    border: 6px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.box .box-pic ul{
+    width: 2400px;
+    position: absolute;
+    left: 0;
+}
+.box .box-pic ul li{
+    float: left;
+}
+.box .box-pic ul li img{
+    width: 400px;
+    height: 200px;
+}
+.box .box-cir{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+}
+.box .box-cir .cir{
+    text-align: center;
+}
+.box .box-cir .cir i{
+    width: 10px;
+    height: 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+}
+.box .box-cir .cir .circle{
+    background-color: rgb(20, 130, 233);
+}
+.box .btn span{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: gray;;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.box .btn span:hover{
+    background-color: rgba(0, 0, 0, 1);
+    color: #FFF;
+}
+.box .btn .left{
+    left: 0;
+}
+.box .btn .right{
+    right: 0;
+}
